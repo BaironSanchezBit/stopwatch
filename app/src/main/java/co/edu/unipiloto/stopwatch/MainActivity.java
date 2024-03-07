@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
             running = savedInstanceState.getBoolean("running");
             vueltas = savedInstanceState.getStringArrayList("vueltas");
             vueltasCount = savedInstanceState.getInt("vueltasCount");
-            // Si se restauró algo, actualizamos el adaptador aquí también
             actualizarAdaptador();
         }
 
